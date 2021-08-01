@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 180px 2fr 1fr;
+	height: 100vh;
+}
+
+.sidebar {
+	background-color: #000;
+	color: gray;
+}
+
+.logo {
+	padding-top: 40px;
+	padding-left: 20px;
+	padding-bottom: 60px;
+}
+
+.flex {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.flex-1 {
+	background-color: #00f;
+	width: 80%;
+	border-radius: 5px;
+}
+
+.icon {
+	padding: 0 20px;
+}
+
+main {
+	background-color: gray;
+}
+
+aside {
+	background-color: gray;
+}
