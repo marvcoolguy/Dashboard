@@ -6,19 +6,22 @@
 
 .container {
 	display: grid;
-	grid-template-columns: 180px 2fr 1fr;
+	grid-template-columns: 180px 1.5fr 1fr;
 	height: 100vh;
+	font-family: sans-serif;
+	color: #fff;
 }
 
 .sidebar {
 	background-color: #000;
-	color: gray;
+	color: #fff;
 }
 
 .logo {
 	padding-top: 40px;
 	padding-left: 20px;
 	padding-bottom: 60px;
+	color: #fff;
 }
 
 .flex {
@@ -39,6 +42,42 @@
 
 main {
 	background-color: gray;
+}
+
+.showcase {
+	background-color: #00bfff;
+	width: 600px;
+	height: 300px;
+	border-radius: 15px;
+	margin-left: 20px;
+	padding-top: 40px;
+}
+
+.bg-image {
+	margin-right: 30px;
+}
+
+.text {
+	width: 30%;
+}
+
+.btn {
+	cursor: pointer;
+	background-color: #000;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 30px;
+	margin-top: 10px;
+}
+
+.btn:hover {
+	transform: scale(0.98);
+}
+
+.flex-2 {
+	display: flex;
+	justify-content: space-around;
 }
 
 aside {
