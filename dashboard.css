@@ -8,6 +8,10 @@ body {
 	height: 100vh;
 }
 
+#screen {
+	display: none;
+}
+
 .container {
 	height: 100%;
 	display: grid;
