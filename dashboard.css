@@ -74,6 +74,10 @@ main {
 	background-repeat: no-repeat;
 }
 
+.showcase h1 {
+	display: none;
+}
+
 .bg-image {
 	margin-right: 30px;
 }
@@ -215,10 +219,49 @@ input[type="search"] {
 	height: 100px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 1441px) and (max-width: 3000px){
+	.container {
+		display: none;
+	}
+
+	#screen {
+		display: flex;
+		color: black;
+	}
+}
+
+
+@media screen  and (max-width: 1206px){
+	.showcase {
+		width: 500px;
+	}
+
+	.courses {
+		width: 200px;
+	}
+	#screen {
+		display: none;
+	}
+}
+ 
+@media screen and (max-width: 900px) and (min-width: 766px) {
+	.container {
+		display: none;
+	}
+
+	#screen {
+		color: black;
+	}
+
+}
+
+@media screen and (max-width: 765px) {
 	body {
 		height: 100vh;
-		width: 100%;
+		width: 100vw;
+	}
+	#screen {
+		display: none;
 	}
 
 	.container {
@@ -259,7 +302,7 @@ input[type="search"] {
 		border-radius: 15px;
 		margin-bottom: 15px;
 		background-image: url("img/Animation.svg");
-		background-position: left;
+		background-position: center;
 		background-size: 300px 300px;
 		background-repeat: no-repeat;
 	}
@@ -274,6 +317,7 @@ input[type="search"] {
 
 	.tutorial-wrap h4 {
 		margin: auto;
+		margin-bottom: 10px;
 	}
 
 	aside {
