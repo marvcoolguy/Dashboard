@@ -238,7 +238,7 @@ input[type="search"] {
 }
 
 
-@media screen  and (max-width: 1206px){
+@media screen  and (max-width: 1206px) {
 	.showcase {
 		width: 500px;
 	}
@@ -251,7 +251,7 @@ input[type="search"] {
 	}
 }
  
-@media screen and (max-width: 900px) and (min-width: 766px) {
+@media screen and (max-width: 980px) and (min-width: 766px) {
 	.container {
 		display: none;
 	}
