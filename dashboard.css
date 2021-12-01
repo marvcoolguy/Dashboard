@@ -258,6 +258,7 @@ input[type="search"] {
 
 	#screen {
 		color: black;
+		display: flex;
 	}
 
 }
