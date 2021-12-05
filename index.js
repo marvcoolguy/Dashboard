@@ -1,8 +1,13 @@
 let text = prompt("What is your name");
-if (text == "1Marvelous Martins-Abel") {
+if (text == "Marvelous Martins-Abel1") {
     document.getElementById("text").innerHTML = `Welcome my master and my creator`;
+} else if  (text == "Gloria") {
+    document.getElementById("text").innerHTML = `Welcome mom`;
 }
-else if (text == "I am an idiot" || text == "") {
+ else if (text == "Henshaw" || text == "henshaw" || text == "HENSHAW") {
+    document.getElementById("text").innerHTML = `Welcome my masters friend`;
+}
+else if (text == "I am an idiot" || text == "I am a fool") {
     document.getElementById("text").innerHTML = `Your an idiot to think that will work on me`;
 }
 else if (!(isFinite(text))) {

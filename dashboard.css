@@ -190,11 +190,11 @@ input[type="search"] {
 	height: 40px;
 	width: 50px;
 	border-radius: 10px;
+	margin-right: 20px;
 }
 
 .course-1 .img {
 	background-color: pink;
-	margin-right: 20px;
 }
 
 .course-2 .img {
