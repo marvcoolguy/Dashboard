@@ -4,8 +4,8 @@ if (text == "Marvelous Martins-Abel1") {
 } else if  (text == "Gloria") {
     document.getElementById("text").innerHTML = `Welcome mom`;
 }
- else if (text == "Henshaw" || text == "henshaw" || text == "HENSHAW") {
-    document.getElementById("text").innerHTML = `Welcome my masters friend`;
+ else if (text == "Jocelyn" || text == "Jasmine") {
+    document.getElementById("text").innerHTML = `Welcome my masters Sister`;
 }
 else if (text == "I am an idiot" || text == "I am a fool") {
     document.getElementById("text").innerHTML = `Your an idiot to think that will work on me`;
