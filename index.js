@@ -4,11 +4,11 @@ if (text == "Marvelous Martins-Abel1") {
 } else if  (text == "Gloria") {
     document.getElementById("text").innerHTML = `Welcome mom`;
 }
- else if (text == "Jocelyn" || text == "Jasmine") {
+ else if (text == "Jocelyn1") {
     document.getElementById("text").innerHTML = `Welcome my masters Sister`;
 }
-else if (text == "I am an idiot" || text == "I am a fool") {
-    document.getElementById("text").innerHTML = `Your an idiot to think that will work on me`;
+else if (text == "Jasmine1") {
+    document.getElementById("text").innerHTML = `Jasmine your a very stupid girl`;
 }
 else if (!(isFinite(text))) {
     document.getElementById("text").innerHTML = `Hello ${text}`;
